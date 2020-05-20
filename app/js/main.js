@@ -48,6 +48,18 @@ btn3.addEventListener('click', () => {
 });
 
 
+let burger = document.querySelector('.burger');
+let links = document.querySelector('.header__links-ul');
+
+burger.addEventListener('click', () => {
+    if (links.style.display == 'none') {
+        links.style.display = 'block';
+
+    } else {
+        links.style.display = 'none';
+    }
+});
+
 
 
 
@@ -61,3 +73,9 @@ let state = {
         {id: 3, stars: 6.7, area: 133, style: 'comfort'},
     ]
 };
+
+
+
+
+
+
