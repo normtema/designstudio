@@ -46,3 +46,18 @@ btn3.addEventListener('click', () => {
         inservice.style.height='600px';
     }
 });
+
+
+
+
+
+
+
+let state = {
+    project: [
+        {id: 0, stars: 8.7, area: 33, style: 'comfort'},
+        {id: 1, stars: 4.7, area: 23, style: 'comfort'},
+        {id: 2, stars: 2.7, area: 63, style: 'comfort'},
+        {id: 3, stars: 6.7, area: 133, style: 'comfort'},
+    ]
+};
