@@ -34,15 +34,19 @@ let btn3=document.querySelector('.service-btn');
 let service=document.querySelector('.service');
 let inservice=document.querySelector('.in-service');
 let service1bg = document.querySelector('.service-img');
+let service2bg = document.querySelector('.service-img-2');
+
 btn3.addEventListener('click', () => {
     if(service.style.display== 'none') {
         service.style.display='grid';
         service1bg.style.display='none';
+        service2bg.style.display='none';
         inservice.style.height='300px';
     }
     else {
         service.style.display='none';
         service1bg.style.display='';
+        service2bg.style.display='';
         inservice.style.height='600px';
     }
 });
