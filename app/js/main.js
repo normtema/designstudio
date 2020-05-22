@@ -1,3 +1,19 @@
+let burger = document.querySelector('.burger');
+let links = document.querySelector('.header__links-ul');
+
+burger.addEventListener('click', () => {
+    if (links.style.display == 'none') {
+        links.style.display = 'block';
+
+    } else {
+        links.style.display = 'none';
+    }
+});
+
+
+
+
+
 let btn1=document.querySelector('.account-btn');
 let account1=document.querySelector('.account');
 let inaccount1=document.querySelector('.in-account');
@@ -52,17 +68,6 @@ btn3.addEventListener('click', () => {
 });
 
 
-let burger = document.querySelector('.burger');
-let links = document.querySelector('.header__links-ul');
-
-burger.addEventListener('click', () => {
-    if (links.style.display == 'none') {
-        links.style.display = 'block';
-
-    } else {
-        links.style.display = 'none';
-    }
-});
 
 
 
